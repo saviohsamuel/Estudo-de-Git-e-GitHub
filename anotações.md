@@ -49,3 +49,6 @@ git add nome-do-arquivo
 
 git add . (ponto)
     usado dessa forma para selecionar todos os arquivos para o staging area (área de preparaçao) para ser comitado
+
+$ git commit -m "Descrição"
+    serve para adicionar um comentário de uma modificação que foi realizada
