@@ -59,3 +59,16 @@ git log
 git log --oneline
     mostra uma forma mais resumida do histórico de alterações
     exibe: hash abreviado e mensagem (commit)
+
+git checkout id - seguro
+    vai voltar no tempo e mostrar o sistema ou aplicação como estava a partir daquele ponto, nossos comites mais recentes não exibe, pois quando voltamos no tempo os comites ainda não existiam
+    git chechout master ou main
+        volta para o início (ponto/commit mais recente) do nosso projeto
+
+git revert id - mais ou menos, altera o histórico do git
+
+
+git reset id --hard - perigoso
+
+git add. && git commit -m "descrição do comit"
+    usando os dois && é a junção de comandos git, na linha acima estamos adicionando arquivos e logo em seguida comitando direto, ou seja, ao adicionar os arquivos e acabar esse procedimento, vai dar continuidade ou outro logo depois.
