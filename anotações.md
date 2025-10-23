@@ -72,3 +72,18 @@ git reset id --hard - perigoso
 
 git add. && git commit -m "descrição do comit"
     usando os dois && é a junção de comandos git, na linha acima estamos adicionando arquivos e logo em seguida comitando direto, ou seja, ao adicionar os arquivos e acabar esse procedimento, vai dar continuidade ou outro logo depois.
+
+git branch nome-da-branch - para dar  o nome
+    master ou main
+    * teste
+        o asterisco indica em qual branch (ramificação) estamos trabalhando no momento
+
+    git checkout teste (nome da branch) para mudar para a que criamos
+    git status
+        master ou main
+        * teste - asterisco indicando em qual branch estamos no momento
+
+    git branch -d teste - para deletar a branch criada
+        caso exiba erro porque tem commits que ainda não foram feitos o merge com a branch master/main, basta trocar o d minúsculo pelo D maíusculo, isso força o git a deletar.      
+
+    se dermos um git branch para exibir depois de deletar, vai aparecer apenas a master/main
